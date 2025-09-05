@@ -699,3 +699,8 @@ html {
     }
   }
 }
+
+/* ===== DISABLE ALL CSS ANIMATIONS ===== */
+*, *::before, *::after {
+  animation: none !important;
+}
