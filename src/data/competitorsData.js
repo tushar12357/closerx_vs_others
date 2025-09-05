@@ -24,18 +24,6 @@ export const competitors = [
     isRecommended: false
   },
   { 
-    name: "Retell AI", 
-    setup: "1-2 weeks", 
-    cost: "Variable", 
-    whiteLabel: "Add-on", 
-    templates: "Code Required", 
-    skillRequired: "High",
-    booking: "8-12%",
-    uptime: "Standard",
-    support: "Documentation",
-    isRecommended: false
-  },
-  { 
     name: "Vapi AI", 
     setup: "2-4 weeks", 
     cost: "Variable", 

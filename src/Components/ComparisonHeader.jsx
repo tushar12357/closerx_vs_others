@@ -14,26 +14,10 @@ const ComparisonHeader = () => {
 
       <div className="relative text-center">
         {/* CloserX Logo/Brand Section */}
-        <div className="mb-12">
-          <div className="inline-flex items-center space-x-6 mb-8">
-            <div>
-              <div className="w-20 h-20 rounded-3xl flex items-center justify-center shadow-2xl">
-                <Zap className="w-11 h-11 text-white" />
-              </div>
-            </div>
-            <div>
-              <h1 className="text-5xl font-bold mb-2 text-white">CloserX</h1>
-              <p className="text-white/80 text-xl font-semibold">The #1 AI Calling Platform for Agencies</p>
-            </div>
-          </div>
-        </div>
+        
 
         {/* Badge */}
-        <div className="inline-flex items-center relative overflow-hidden bg-gradient-to-r from-blue-50 via-white to-cyan-50 text-blue-800 px-10 py-5 rounded-full text-base font-bold mb-12 border-2 border-blue-200 shadow-xl">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent w-full h-full transform -skew-x-12" />
-          <CheckCircle className="w-6 h-6 mr-3 text-blue-600" />
-          <span className="relative z-10">Ultimate Platform Comparison Study</span>
-        </div>
+        
 
         {/* Main Heading */}
         <h2 className="text-6xl lg:text-8xl font-bold text-white mb-10 leading-tight">

@@ -22,7 +22,6 @@ const CompetitorComparison = () => {
         <ComparisonTable />
         <CostComparison />
         <KeyAdvantages />
-        <ComparisonCTA />
       </div>
     </div>
   );
