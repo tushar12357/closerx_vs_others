@@ -1,9 +1,9 @@
-import React from 'react'
+import CompetitorComparison from './components/CompetitorComparison'
 
-const App = () => {
+function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <CompetitorComparison />
     </div>
   )
 }
