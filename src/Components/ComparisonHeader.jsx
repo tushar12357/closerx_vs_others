@@ -3,7 +3,7 @@ import { CheckCircle, Zap, TrendingUp, Users, Clock } from 'lucide-react';
 
 const ComparisonHeader = () => {
   return (
-    <div className="relative overflow-hidden mb-20">
+    <div className="relative overflow-hidden mb-20 bg-[#483D8B]">
       {/* Background Effects (static, no animations) */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0" />
@@ -13,7 +13,20 @@ const ComparisonHeader = () => {
       </div>
 
       <div className="relative text-center">
-        
+        {/* CloserX Logo/Brand Section */}
+        <div className="mb-12">
+          <div className="inline-flex items-center space-x-6 mb-8">
+            <div>
+              <div className="w-20 h-20 rounded-3xl flex items-center justify-center shadow-2xl">
+                <Zap className="w-11 h-11 text-white" />
+              </div>
+            </div>
+            <div>
+              <h1 className="text-5xl font-bold mb-2 text-white">CloserX</h1>
+              <p className="text-white/80 text-xl font-semibold">The #1 AI Calling Platform for Agencies</p>
+            </div>
+          </div>
+        </div>
 
         {/* Badge */}
         <div className="inline-flex items-center relative overflow-hidden bg-gradient-to-r from-blue-50 via-white to-cyan-50 text-blue-800 px-10 py-5 rounded-full text-base font-bold mb-12 border-2 border-blue-200 shadow-xl">
@@ -23,17 +36,17 @@ const ComparisonHeader = () => {
         </div>
 
         {/* Main Heading */}
-        <h2 className="text-6xl lg:text-8xl font-bold text-slate-900 mb-10 leading-tight">
+        <h2 className="text-6xl lg:text-8xl font-bold text-white mb-10 leading-tight">
           CloserX vs{' '}
-          <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-300 via-cyan-200 to-blue-300 bg-clip-text text-transparent">
             Competitors
           </span>
         </h2>
 
         {/* Subheading */}
-        <p className="text-2xl text-slate-600 max-w-5xl mx-auto mb-12 leading-relaxed">
+        <p className="text-2xl text-white/80 max-w-5xl mx-auto mb-12 leading-relaxed">
           The most comprehensive analysis of AI calling platforms. Discover exactly why{' '}
-          <span className="font-bold text-slate-800">
+          <span className="font-bold text-white">
             5,000+ successful agencies
           </span>{' '}
           choose CloserX over 15+ other platforms.

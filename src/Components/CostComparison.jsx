@@ -32,12 +32,12 @@ const CostComparison = () => {
       <div className="relative">
         {/* Section Header */}
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-[slideInUp_0.8s_ease-out]' : 'opacity-0'}`}>
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             Real-World Cost Analysis
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Actual costs for <span className="font-bold text-slate-800">5 clients</span> with{' '}
-            <span className="font-bold text-slate-800">5,000 minutes</span> per month
+          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+            Actual costs for <span className="font-bold text-white">5 clients</span> with{' '}
+            <span className="font-bold text-white">5,000 minutes</span> per month
           </p>
         </div>
 

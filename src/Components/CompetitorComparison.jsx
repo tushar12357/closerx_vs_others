@@ -14,7 +14,7 @@ const CompetitorComparison = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 relative overflow-hidden">
+    <div className="min-h-screen bg-[#483D8B] relative overflow-hidden">
       {/* Main Content */}
       <div className={`relative z-10 max-w-7xl mx-auto px-6 py-20 transition-all duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <ComparisonHeader />

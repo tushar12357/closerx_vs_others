@@ -42,12 +42,12 @@ const KeyAdvantages = () => {
       <div className="relative">
         {/* Section Header */}
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-[slideInUp_0.8s_ease-out]' : 'opacity-0'}`}>
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             Why CloserX Dominates the Market
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto">
             Clear advantages that drive{' '}
-            <span className="font-bold text-slate-800 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
+            <span className="font-bold text-white">
               real business results
             </span>
           </p>

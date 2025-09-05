@@ -38,12 +38,12 @@ const ComparisonTable = () => {
       <div className="relative">
         {/* Section Header */}
         <div className="text-center mb-6 md:mb-10">
-          <h2 className="text-lg md:text-2xl lg:text-3xl font-bold text-slate-900 mb-2 md:mb-4">
+          <h2 className="text-lg md:text-2xl lg:text-3xl font-bold text-white mb-2 md:mb-4">
             Complete Platform Comparison
           </h2>
-          <p className="text-xs md:text-base text-slate-600 max-w-3xl mx-auto">
+          <p className="text-xs md:text-base text-white/80 max-w-3xl mx-auto">
             See how CloserX dominates across all{' '}
-            <span className="font-semibold text-slate-800">critical metrics</span>
+            <span className="font-semibold text-white">critical metrics</span>
           </p>
         </div>
 
