@@ -4,7 +4,6 @@ import FeatureHighlights from './FeatureHighlights';
 import ComparisonTable from './ComparisonTable';
 import CostComparison from './CostComparison';
 import KeyAdvantages from './KeyAdvantages';
-import ComparisonCTA from './ComparisonCTA';
 
 const CompetitorComparison = () => {
   const [isLoaded, setIsLoaded] = useState(false);

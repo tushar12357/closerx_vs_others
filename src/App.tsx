@@ -1,4 +1,4 @@
-import CompetitorComparison from './components/CompetitorComparison'
+import CompetitorComparison from './Components/CompetitorComparison'
 
 function App() {
   return (
