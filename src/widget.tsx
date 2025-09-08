@@ -16,7 +16,7 @@ class ReactWidget extends HTMLElement {
     const container = document.createElement("div");
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "https://nicola-funnel-s5td.vercel.app/style.css";
+    link.href = "https://closerx-vs-others.vercel.app/style.css";
 
     // Append the stylesheet and container to the Shadow DOM
     this.shadowRoot?.appendChild(link);
@@ -43,4 +43,4 @@ class ReactWidget extends HTMLElement {
   }
 }
 
-customElements.define("react-widget-nicole", ReactWidget);
+customElements.define("react-widget-closerx", ReactWidget);
